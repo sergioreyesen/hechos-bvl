@@ -8,8 +8,8 @@ Qué hace:
      sector oficial SMV, descripción corta (si existe) y enlace al PDF.
   3. Compara contra lo que ya teníamos guardado (data/hechos.json) y
      detecta cuáles son NUEVOS.
-  4. Para cada hecho nuevo: le pide a Gemini un resumen breve en lenguaje
-     simple + lo clasifica en uno de nuestros rubros de la app.
+  4. Para cada hecho nuevo: le pide a Groq (Llama, gratis) un resumen breve
+     en lenguaje simple + lo clasifica en uno de nuestros rubros de la app.
   5. Guarda todo en data/hechos.json (con historial acumulado).
   6. Envía una notificación push a ntfy.sh por cada hecho nuevo.
 
@@ -31,9 +31,9 @@ from datetime import datetime, timezone
 SMV_URL = "https://www.smv.gob.pe/SIMV/Frm_hechosdeImportanciaDia"
 DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "hechos.json")
 
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
-GEMINI_MODEL = "gemini-2.0-flash"
-GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
+GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "")
 NTFY_URL = f"https://ntfy.sh/{NTFY_TOPIC}" if NTFY_TOPIC else None
@@ -84,24 +84,12 @@ def html_to_text(chunk_html):
     text = re.sub(r'<(script|style)[^>]*>.*?</\1>', ' ', chunk_html, flags=re.DOTALL | re.IGNORECASE)
     text = re.sub(r'<[^>]+>', ' ', text)
     text = html.unescape(text)
-    # Quita cualquier resto de etiqueta que haya quedado sin cerrar al
-    # final del trozo (por ejemplo un "<a" cortado justo en el borde
-    # del bloque, antes de su atributo href).
     text = re.sub(r'<[^<>]*$', '', text)
     text = re.sub(r'[ \t\r\n]+', ' ', text).strip()
     return text
 
 
 def parse_hechos(raw_html):
-    """
-    Estrategia en 2 pasos (mas tolerante a cambios pequenos de HTML):
-      1) Encuentra todos los enlaces a documento.aspx?vidDoc={GUID} en el HTML
-         crudo (ahi SI necesitamos las etiquetas, porque el link vive en un
-         atributo href).
-      2) El trozo de HTML entre un enlace y el anterior es "el bloque" de ese
-         hecho de importancia. Convertimos ESE trozo a texto plano y ahi
-         buscamos empresa / expediente / fecha / tipo / sector.
-    """
     items = []
 
     link_pattern = re.compile(
@@ -119,9 +107,6 @@ def parse_hechos(raw_html):
 
     block_start = 0
     for m in matches:
-        # Usamos SOLO hasta el inicio del link (no su final) para el texto,
-        # así nunca queda una etiqueta <a ...> a medio cerrar mezclada
-        # con el contenido visible del bloque.
         block_html = raw_html[block_start:m.start()]
         pdf_url = m.group(1)
         block_start = m.end()
@@ -145,8 +130,6 @@ def parse_hechos(raw_html):
         tipo_match = re.match(r'^(.*?)(?:Fecha de acuerdo|EMPRESAS)', rest)
         tipo = tipo_match.group(1).strip(" :.-") if tipo_match else "Hecho de Importancia"
 
-        # Solo reconocemos sectores de nuestra lista conocida (SECTOR_MAP),
-        # así evitamos que la captura se coma letras del texto siguiente.
         sector_match = re.search(
             rf'EMPRESAS EMISORAS\s*\|\s*({sector_names_pattern})',
             rest,
@@ -185,7 +168,6 @@ def load_existing():
 
 def save_all(items):
     os.makedirs(os.path.dirname(DATA_PATH), exist_ok=True)
-    # ordenar por fecha descendente y recortar a 12 meses
     items_sorted = sorted(
         items,
         key=lambda x: datetime.strptime(x["fecha"], "%d/%m/%Y %H:%M"),
@@ -200,12 +182,13 @@ def save_all(items):
         json.dump(items_sorted, f, ensure_ascii=False, indent=2)
 
 
-def summarize_with_gemini(item):
-    """Pide a Gemini un resumen breve en lenguaje simple. Si falla, usa un
-    resumen de respaldo basado en los datos crudos (nunca deja el campo vacío)."""
+def summarize_with_groq(item):
+    """Pide a Groq (modelo Llama, gratis) un resumen breve en lenguaje simple.
+    Si falla, usa un resumen de respaldo basado en los datos crudos (nunca
+    deja el campo vacío)."""
     fallback = item["snippet"] or f'{item["empresa"]} presentó: {item["tipo"]}.'
 
-    if not GEMINI_API_KEY:
+    if not GROQ_API_KEY:
         return fallback
 
     prompt = f"""Eres un asistente que resume comunicados oficiales de la Superintendencia
@@ -224,16 +207,25 @@ markdown, sin preámbulo."""
 
     try:
         resp = requests.post(
-            f"{GEMINI_URL}?key={GEMINI_API_KEY}",
-            json={"contents": [{"parts": [{"text": prompt}]}]},
+            GROQ_URL,
+            headers={
+                "Authorization": f"Bearer {GROQ_API_KEY}",
+                "Content-Type": "application/json",
+            },
+            json={
+                "model": GROQ_MODEL,
+                "messages": [{"role": "user", "content": prompt}],
+                "temperature": 0.3,
+                "max_tokens": 200,
+            },
             timeout=30,
         )
         resp.raise_for_status()
         data = resp.json()
-        text = data["candidates"][0]["content"]["parts"][0]["text"].strip()
+        text = data["choices"][0]["message"]["content"].strip()
         return text if text else fallback
     except Exception as e:
-        print(f"[WARN] Gemini falló para EXP {item['exp']}: {e}")
+        print(f"[WARN] Groq falló para EXP {item['exp']}: {e}")
         return fallback
 
 
@@ -273,7 +265,7 @@ def main():
     print(f"{len(nuevos)} hechos nuevos respecto a lo ya guardado.")
 
     for item in nuevos:
-        item["resumen"] = summarize_with_gemini(item)
+        item["resumen"] = summarize_with_groq(item)
         item["stamp"] = STAMP_BY_SECTOR.get(item["sector"], "verde")
         item["fetched_at"] = datetime.now(timezone.utc).isoformat()
         notify_ntfy(item)

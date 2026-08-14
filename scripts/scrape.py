@@ -79,47 +79,92 @@ def fetch_html():
     return resp.text
 
 
+def html_to_text(chunk_html):
+    """Convierte un trozo de HTML a texto plano legible, quitando etiquetas."""
+    text = re.sub(r'<(script|style)[^>]*>.*?</\1>', ' ', chunk_html, flags=re.DOTALL | re.IGNORECASE)
+    text = re.sub(r'<[^>]+>', ' ', text)
+    text = html.unescape(text)
+    # Quita cualquier resto de etiqueta que haya quedado sin cerrar al
+    # final del trozo (por ejemplo un "<a" cortado justo en el borde
+    # del bloque, antes de su atributo href).
+    text = re.sub(r'<[^<>]*$', '', text)
+    text = re.sub(r'[ \t\r\n]+', ' ', text).strip()
+    return text
+
+
 def parse_hechos(raw_html):
     """
-    Extrae cada bloque de hecho de importancia del HTML crudo usando
-    los marcadores de texto observados en la página pública de la SMV:
-    'EXP. <num> DEL <fecha>', 'Fecha de acuerdo:', 'EMPRESAS EMISORAS | <SECTOR>',
-    y el enlace a documento.aspx?vidDoc={GUID}
+    Estrategia en 2 pasos (mas tolerante a cambios pequenos de HTML):
+      1) Encuentra todos los enlaces a documento.aspx?vidDoc={GUID} en el HTML
+         crudo (ahi SI necesitamos las etiquetas, porque el link vive en un
+         atributo href).
+      2) El trozo de HTML entre un enlace y el anterior es "el bloque" de ese
+         hecho de importancia. Convertimos ESE trozo a texto plano y ahi
+         buscamos empresa / expediente / fecha / tipo / sector.
     """
     items = []
 
-    pattern = re.compile(
-        r'([A-ZÁÉÍÓÚÑ0-9\.\-,&\s]{4,120}?)\s*'
-        r'EXP\.\s*(\d+)\s*DEL\s*(\d{2}/\d{2}/\d{4}\s*\d{2}:\d{2})'
-        r'(.{0,600}?)'
-        r'documento\.aspx\?vidDoc=\{([0-9A-F\-]+)\}',
-        re.IGNORECASE | re.DOTALL,
+    link_pattern = re.compile(
+        r'href=["\']([^"\']*documento\.aspx\?vidDoc=\{([0-9A-F\-]+)\})["\']',
+        re.IGNORECASE,
+    )
+    matches = list(link_pattern.finditer(raw_html))
+
+    if not matches:
+        return items
+
+    sector_names_pattern = '|'.join(
+        re.escape(k) for k in sorted(SECTOR_MAP.keys(), key=len, reverse=True)
     )
 
-    for m in pattern.finditer(raw_html):
-        empresa_raw, exp, fecha, middle, guid = m.groups()
-        empresa = html.unescape(empresa_raw).strip(" \t\n|,-")
-        middle_clean = html.unescape(re.sub(r'<[^>]+>', ' ', middle))
-        middle_clean = re.sub(r'\s+', ' ', middle_clean).strip()
+    block_start = 0
+    for m in matches:
+        # Usamos SOLO hasta el inicio del link (no su final) para el texto,
+        # así nunca queda una etiqueta <a ...> a medio cerrar mezclada
+        # con el contenido visible del bloque.
+        block_html = raw_html[block_start:m.start()]
+        pdf_url = m.group(1)
+        block_start = m.end()
 
-        tipo_match = re.match(r'^(.*?)(?:Fecha de acuerdo|EMPRESAS)', middle_clean)
+        text = html_to_text(block_html)
+
+        header_match = re.search(
+            r'([A-ZÁÉÍÓÚÑ0-9\.\-,&\s]{4,150}?)\s*EXP\.\s*(\d+)\s*DEL\s*'
+            r'(\d{2}/\d{2}/\d{4}\s*\d{2}:\d{2})',
+            text,
+            re.IGNORECASE,
+        )
+        if not header_match:
+            continue
+
+        empresa = header_match.group(1).strip(" \t\n|,-")
+        exp = header_match.group(2)
+        fecha = header_match.group(3).strip()
+        rest = text[header_match.end():]
+
+        tipo_match = re.match(r'^(.*?)(?:Fecha de acuerdo|EMPRESAS)', rest)
         tipo = tipo_match.group(1).strip(" :.-") if tipo_match else "Hecho de Importancia"
 
-        sector_match = re.search(r'EMPRESAS EMISORAS\s*\|\s*([A-ZÁÉÍÓÚÑ\s]+)', middle_clean)
-        categoria_smv = sector_match.group(1).strip() if sector_match else "OTROS"
+        # Solo reconocemos sectores de nuestra lista conocida (SECTOR_MAP),
+        # así evitamos que la captura se coma letras del texto siguiente.
+        sector_match = re.search(
+            rf'EMPRESAS EMISORAS\s*\|\s*({sector_names_pattern})',
+            rest,
+            re.IGNORECASE,
+        )
+        categoria_smv = sector_match.group(1).strip().upper() if sector_match else "OTROS"
 
         snippet = ""
         if sector_match:
-            after = middle_clean[sector_match.end():].strip(" .-")
+            after = rest[sector_match.end():].strip(" .-")
             if len(after) > 8:
-                snippet = after
+                snippet = after[:400]
 
-        pdf_url = f"https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={{{guid}}}"
         sector = SECTOR_MAP.get(categoria_smv.upper().strip(), "otros")
 
         items.append({
             "exp": exp,
-            "fecha": fecha.strip(),
+            "fecha": fecha,
             "empresa": empresa,
             "tipo": tipo,
             "categoria_smv": categoria_smv,
@@ -140,6 +185,7 @@ def load_existing():
 
 def save_all(items):
     os.makedirs(os.path.dirname(DATA_PATH), exist_ok=True)
+    # ordenar por fecha descendente y recortar a 12 meses
     items_sorted = sorted(
         items,
         key=lambda x: datetime.strptime(x["fecha"], "%d/%m/%Y %H:%M"),

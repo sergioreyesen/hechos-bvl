@@ -32,7 +32,7 @@ SMV_URL = "https://www.smv.gob.pe/SIMV/Frm_hechosdeImportanciaDia"
 DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "hechos.json")
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
-GEMINI_MODEL = "gemini-2.5-flash"
+GEMINI_MODEL = "gemini-2.0-flash"
 GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
 
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "")

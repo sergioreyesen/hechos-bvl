@@ -1,5 +1,18 @@
 [
   {
+    "exp": "2026037385",
+    "fecha": "17/08/2026 07:36",
+    "empresa": "2026   ALICORP S.A.A.",
+    "tipo": "18.1 POSICIÓN MENSUAL EN INSTRUMENTOS FINANCIEROS DERIVADOS. DESCARGAR PLANTILLA (*)",
+    "categoria_smv": "INDUSTRIALES",
+    "snippet": "Reporte mensual de IFD de Alicorp S.A.A",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={F0B90FA0-0000-CF1C-A163-AEE46AA667CA}",
+    "sector": "industrial",
+    "resumen": "Reporte mensual de IFD de Alicorp S.A.A",
+    "stamp": "verde",
+    "fetched_at": "2026-08-17T13:58:21.963861+00:00"
+  },
+  {
     "exp": "2026037271",
     "fecha": "14/08/2026 16:03",
     "empresa": "2026   INSUR S.A. COMPAÑIA DE SEGUROS",

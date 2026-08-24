@@ -1,5 +1,57 @@
 [
   {
+    "exp": "2026038400",
+    "fecha": "24/08/2026 15:45",
+    "empresa": "2026   SOCIEDAD MINERA CERRO VERDE S.A.A.",
+    "tipo": "OTROS HECHOS DE IMPORTANCIA",
+    "categoria_smv": "MINERAS",
+    "snippet": "Comunicamos traducción al español del “FORMULARIO 10-Q / REPORTE TRIMESTRAL EN CUMPLIMIENTO DE LA SECCIÓN 13 o 15(d) DE LA LEY DE BOLSAS DE VALORES DE 1934 Por el trimestre que finalizó el 30 de junio del 2026”, difundido por Freeport-McMoRan Inc",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={008635A0-0000-CF12-8770-B41D51A84E1A}",
+    "sector": "mineria",
+    "resumen": "Comunicamos traducción al español del “FORMULARIO 10-Q / REPORTE TRIMESTRAL EN CUMPLIMIENTO DE LA SECCIÓN 13 o 15(d) DE LA LEY DE BOLSAS DE VALORES DE 1934 Por el trimestre que finalizó el 30 de junio del 2026”, difundido por Freeport-McMoRan Inc",
+    "stamp": "oro",
+    "fetched_at": "2026-08-24T21:54:26.820786+00:00"
+  },
+  {
+    "exp": "2026038394",
+    "fecha": "24/08/2026 15:13",
+    "empresa": "45 BD CAPITAL SOCIEDAD ADMINISTRADORA DE FONDOS S.A.C.",
+    "tipo": "OTROS HECHOS QUE INFLUYAN EN LA VALORIZACIÓN DEL ACTIVO, VALOR CUOTA Y EN EL DESEMPEÑO DE LOS FONDOS",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={906835A0-0000-CF1F-94D7-8656D79EDC3C}",
+    "sector": "otros",
+    "resumen": "45 BD CAPITAL SOCIEDAD ADMINISTRADORA DE FONDOS S.A.C. presentó: OTROS HECHOS QUE INFLUYAN EN LA VALORIZACIÓN DEL ACTIVO, VALOR CUOTA Y EN EL DESEMPEÑO DE LOS FONDOS.",
+    "stamp": "verde",
+    "fetched_at": "2026-08-24T21:54:27.026031+00:00"
+  },
+  {
+    "exp": "2026038357",
+    "fecha": "24/08/2026 11:17",
+    "empresa": "13 CORPORACION CERVESUR S.A.A.",
+    "tipo": "11. DESIGNACIÓN Y RESOLUCIÓN DE CONTRATO CON SU SOCIEDAD DE AUDITORÍA",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={B09034A0-0000-CB15-9B9D-5F9E66773BFB}",
+    "sector": "otros",
+    "resumen": "13 CORPORACION CERVESUR S.A.A. presentó: 11. DESIGNACIÓN Y RESOLUCIÓN DE CONTRATO CON SU SOCIEDAD DE AUDITORÍA.",
+    "stamp": "verde",
+    "fetched_at": "2026-08-24T21:54:27.139994+00:00"
+  },
+  {
+    "exp": "2026038348",
+    "fecha": "24/08/2026 10:41",
+    "empresa": "17 INTERFONDOS S.A. SOCIEDAD ADMINISTRADORA DE FONDOS",
+    "tipo": "OTROS HECHOS DE IMPORTANCIA",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={606F34A0-0000-CA15-A8DB-C04A608FD8B4}",
+    "sector": "otros",
+    "resumen": "17 INTERFONDOS S.A. SOCIEDAD ADMINISTRADORA DE FONDOS presentó: OTROS HECHOS DE IMPORTANCIA.",
+    "stamp": "verde",
+    "fetched_at": "2026-08-24T21:54:27.256170+00:00"
+  },
+  {
     "exp": "2026038327",
     "fecha": "21/08/2026 20:26",
     "empresa": "2026   ENGIE ENERGIA PERU S.A.A.",

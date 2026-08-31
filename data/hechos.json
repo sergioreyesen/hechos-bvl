@@ -1,5 +1,57 @@
 [
   {
+    "exp": "2026039261",
+    "fecha": "31/08/2026 13:40",
+    "empresa": "2026   SCOTIA FONDOS SOCIEDAD ADMINISTRADORA DE FONDOS MUTUOS S.A.",
+    "tipo": "EXCESOS A LOS LÍMITES DE INVERSIÓN E INVERSIONES NO PREVISTAS EN POLÍTICA DE INVERSIONES",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={702059A0-0000-C81F-B54C-733172DC1810}",
+    "sector": "otros",
+    "resumen": "2026   SCOTIA FONDOS SOCIEDAD ADMINISTRADORA DE FONDOS MUTUOS S.A. presentó: EXCESOS A LOS LÍMITES DE INVERSIÓN E INVERSIONES NO PREVISTAS EN POLÍTICA DE INVERSIONES.",
+    "stamp": "verde",
+    "fetched_at": "2026-08-31T19:32:48.187741+00:00"
+  },
+  {
+    "exp": "2026039220",
+    "fecha": "31/08/2026 12:07",
+    "empresa": "40 EMPRESA AGRARIA AZUCARERA ANDAHUASI S.A.A.",
+    "tipo": "OTROS HECHOS DE IMPORTANCIA",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={A0CA58A0-0000-C712-A2BB-DBB8F334D54E}",
+    "sector": "otros",
+    "resumen": "40 EMPRESA AGRARIA AZUCARERA ANDAHUASI S.A.A. presentó: OTROS HECHOS DE IMPORTANCIA.",
+    "stamp": "verde",
+    "fetched_at": "2026-08-31T19:32:48.544715+00:00"
+  },
+  {
+    "exp": "2026039211",
+    "fecha": "31/08/2026 11:26",
+    "empresa": "07 INTERFONDOS S.A. SOCIEDAD ADMINISTRADORA DE FONDOS",
+    "tipo": "OTROS HECHOS DE IMPORTANCIA",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={F0A458A0-0000-CD1A-B868-92028AB6CAD0}",
+    "sector": "otros",
+    "resumen": "07 INTERFONDOS S.A. SOCIEDAD ADMINISTRADORA DE FONDOS presentó: OTROS HECHOS DE IMPORTANCIA.",
+    "stamp": "verde",
+    "fetched_at": "2026-08-31T19:32:48.869169+00:00"
+  },
+  {
+    "exp": "2026039191",
+    "fecha": "31/08/2026 09:36",
+    "empresa": "26 LARRAIN VIAL S.A. SOCIEDAD ADMINISTRADORA DE FONDOS DE INVERSION",
+    "tipo": "OTROS HECHOS DE IMPORTANCIA",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={E03F58A0-0000-CE14-BE11-181072C953D0}",
+    "sector": "otros",
+    "resumen": "26 LARRAIN VIAL S.A. SOCIEDAD ADMINISTRADORA DE FONDOS DE INVERSION presentó: OTROS HECHOS DE IMPORTANCIA.",
+    "stamp": "verde",
+    "fetched_at": "2026-08-31T19:32:49.236116+00:00"
+  },
+  {
     "exp": "2026039167",
     "fecha": "28/08/2026 19:54",
     "empresa": "2026   BD CAPITAL SOCIEDAD TITULIZADORA S.A.C",

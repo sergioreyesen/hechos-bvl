@@ -1,5 +1,44 @@
 [
   {
+    "exp": "2026039640",
+    "fecha": "02/09/2026 09:04",
+    "empresa": "2026   BANCO BBVA PERU",
+    "tipo": "OTROS HECHOS DE IMPORTANCIA",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={407062A0-0000-CA12-94C5-57B702D75892}",
+    "sector": "otros",
+    "resumen": "2026   BANCO BBVA PERU presentó: OTROS HECHOS DE IMPORTANCIA.",
+    "stamp": "verde",
+    "fetched_at": "2026-09-02T17:13:20.629556+00:00"
+  },
+  {
+    "exp": "2026039638",
+    "fecha": "02/09/2026 08:31",
+    "empresa": "04 BANCO DE LA NACION",
+    "tipo": "4. CAMBIOS EN EL DIRECTORIO Y GERENCIA GENERAL Y/O SUS ÓRGANOS EQUIVALENTES",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={E05162A0-0000-CC13-BEF7-AFAC8EDA0C0A}",
+    "sector": "otros",
+    "resumen": "04 BANCO DE LA NACION presentó: 4. CAMBIOS EN EL DIRECTORIO Y GERENCIA GENERAL Y/O SUS ÓRGANOS EQUIVALENTES.",
+    "stamp": "verde",
+    "fetched_at": "2026-09-02T17:13:21.016070+00:00"
+  },
+  {
+    "exp": "2026039636",
+    "fecha": "02/09/2026 08:23",
+    "empresa": "31 CEMENTOS PACASMAYO S.A.A.",
+    "tipo": "OTROS HECHOS DE IMPORTANCIA",
+    "categoria_smv": "INDUSTRIALES",
+    "snippet": "Designación de Entidad Valorizadora para OPA",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={D04A62A0-0000-C718-ADEE-68FB399061F8}",
+    "sector": "industrial",
+    "resumen": "Designación de Entidad Valorizadora para OPA",
+    "stamp": "verde",
+    "fetched_at": "2026-09-02T17:13:21.251994+00:00"
+  },
+  {
     "exp": "2026039588",
     "fecha": "01/09/2026 18:24",
     "empresa": "2026   HERMES TRANSPORTES BLINDADOS S.A.",

@@ -1,5 +1,57 @@
 [
   {
+    "exp": "2026039833",
+    "fecha": "03/09/2026 11:24",
+    "empresa": "2026   COMPAÑIA UNIVERSAL TEXTIL S.A. EN LIQUIDACION",
+    "tipo": "1. CONVOCATORIA A JUNTAS DE ACCIONISTAS, JUNTA DE ACREEDORES O ASAMBLEA DE OBLIGACIONISTAS, Y ACUERDOS ADOPTADOS",
+    "categoria_smv": "INDUSTRIALES",
+    "snippet": "Convocatoria a Junta General de Accionistas",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={801668A0-0000-C315-B5BE-B55E0B824C7C}",
+    "sector": "industrial",
+    "resumen": "Convocatoria a Junta General de Accionistas",
+    "stamp": "verde",
+    "fetched_at": "2026-09-03T17:05:00.662777+00:00"
+  },
+  {
+    "exp": "2026039820",
+    "fecha": "03/09/2026 10:10",
+    "empresa": "24 FUTURA CONSORCIO INMOBILIARIO S.A.",
+    "tipo": "1. CONVOCATORIA A JUNTAS DE ACCIONISTAS, JUNTA DE ACREEDORES O ASAMBLEA DE OBLIGACIONISTAS, Y ACUERDOS ADOPTADOS",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={D0D267A0-0000-C31D-BD54-154BEDEFC083}",
+    "sector": "otros",
+    "resumen": "24 FUTURA CONSORCIO INMOBILIARIO S.A. presentó: 1. CONVOCATORIA A JUNTAS DE ACCIONISTAS, JUNTA DE ACREEDORES O ASAMBLEA DE OBLIGACIONISTAS, Y ACUERDOS ADOPTADOS.",
+    "stamp": "verde",
+    "fetched_at": "2026-09-03T17:05:00.840023+00:00"
+  },
+  {
+    "exp": "2026039817",
+    "fecha": "03/09/2026 09:47",
+    "empresa": "10 GR HOLDING S.A.",
+    "tipo": "10. INFORMACIÓN FINANCIERA Y MEMORIA ANUAL",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={D0BD67A0-0000-C81C-9622-20E447C51A53}",
+    "sector": "otros",
+    "resumen": "10 GR HOLDING S.A. presentó: 10. INFORMACIÓN FINANCIERA Y MEMORIA ANUAL.",
+    "stamp": "verde",
+    "fetched_at": "2026-09-03T17:05:00.965588+00:00"
+  },
+  {
+    "exp": "2026039811",
+    "fecha": "03/09/2026 09:08",
+    "empresa": "47 FINANCIERA CREDINKA S.A. EN LIQUIDACION",
+    "tipo": "OTROS HECHOS DE IMPORTANCIA",
+    "categoria_smv": "FINANCIERAS",
+    "snippet": "Estados Financieros de Financiera Credinka SA en Liquidación, correspondientes al 31 de julio de 2026",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={809967A0-0000-C21A-A101-4230DC1A7F27}",
+    "sector": "banca",
+    "resumen": "Estados Financieros de Financiera Credinka SA en Liquidación, correspondientes al 31 de julio de 2026",
+    "stamp": "azul",
+    "fetched_at": "2026-09-03T17:05:01.081953+00:00"
+  },
+  {
     "exp": "2026039773",
     "fecha": "02/09/2026 18:12",
     "empresa": "2026   BLUM SOCIEDAD ADMINISTRADORA DE FONDOS S.A.",

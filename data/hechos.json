@@ -1,5 +1,31 @@
 [
   {
+    "exp": "2026040026",
+    "fecha": "04/09/2026 11:18",
+    "empresa": "2026   INRETAIL PERU CORP.",
+    "tipo": "18.1 POSICIÓN MENSUAL EN INSTRUMENTOS FINANCIEROS DERIVADOS. DESCARGAR PLANTILLA (*)",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={E0366DA0-0000-CA16-9204-2303D487A16F}",
+    "sector": "otros",
+    "resumen": "2026   INRETAIL PERU CORP. presentó: 18.1 POSICIÓN MENSUAL EN INSTRUMENTOS FINANCIEROS DERIVADOS. DESCARGAR PLANTILLA (*).",
+    "stamp": "verde",
+    "fetched_at": "2026-09-04T16:54:29.425298+00:00"
+  },
+  {
+    "exp": "2026040021",
+    "fecha": "04/09/2026 10:44",
+    "empresa": "18 PROTECTA S.A. COMPAÑIA DE SEGUROS Y REASEGUROS",
+    "tipo": "22. INFORMES DE CLASIFICACIÓN DE RIESGO",
+    "categoria_smv": "SEGUROS",
+    "snippet": "Informe de Clasificación de Protecta S.A. Compañía de Seguros y Reaseguros",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={B0176DA0-0000-CD14-8EE5-DDCCB8FB7994}",
+    "sector": "seguros",
+    "resumen": "Informe de Clasificación de Protecta S.A. Compañía de Seguros y Reaseguros",
+    "stamp": "verde",
+    "fetched_at": "2026-09-04T16:54:29.640956+00:00"
+  },
+  {
     "exp": "2026039952",
     "fecha": "03/09/2026 18:11",
     "empresa": "2026   FARO CAPITAL SOCIEDAD ADMINISTRADORA DE FONDOS S.A.",

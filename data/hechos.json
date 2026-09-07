@@ -1,5 +1,44 @@
 [
   {
+    "exp": "2026040250",
+    "fecha": "07/09/2026 10:44",
+    "empresa": "27 SCOTIABANK PERU S.A.A.",
+    "tipo": "21. EMISIONES DE VALORES POR OFERTA PÚBLICA O PRIVADA",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={E08A7CA0-0000-CB16-A84B-ECB49DC7FA19}",
+    "sector": "otros",
+    "resumen": "27 SCOTIABANK PERU S.A.A. presentó: 21. EMISIONES DE VALORES POR OFERTA PÚBLICA O PRIVADA.",
+    "stamp": "verde",
+    "fetched_at": "2026-09-07T18:17:40.592145+00:00"
+  },
+  {
+    "exp": "2026040211",
+    "fecha": "07/09/2026 09:22",
+    "empresa": "44 SERVICIO DE AGUA POTABLE Y ALCANTARILLADO - SEDAPAL",
+    "tipo": "4. CAMBIOS EN EL DIRECTORIO Y GERENCIA GENERAL Y/O SUS ÓRGANOS EQUIVALENTES",
+    "categoria_smv": "SERVICIOS",
+    "snippet": "PUBLICOS Se regulariza el cargo registrado del Sr. Fernando Julio Laca Barrera de Director a Presidente de Directorio",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={903F7CA0-0000-CD10-885C-EB11F6C6DF29}",
+    "sector": "otros",
+    "resumen": "PUBLICOS Se regulariza el cargo registrado del Sr. Fernando Julio Laca Barrera de Director a Presidente de Directorio",
+    "stamp": "verde",
+    "fetched_at": "2026-09-07T18:17:40.749575+00:00"
+  },
+  {
+    "exp": "2026040201",
+    "fecha": "07/09/2026 05:12",
+    "empresa": "22 ALICORP S.A.A.",
+    "tipo": "OTROS HECHOS DE IMPORTANCIA",
+    "categoria_smv": "INDUSTRIALES",
+    "snippet": "Aclaración nota periodística",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={005B7BA0-0000-C911-992C-3BF8FAF2DB03}",
+    "sector": "industrial",
+    "resumen": "Aclaración nota periodística",
+    "stamp": "verde",
+    "fetched_at": "2026-09-07T18:17:40.915698+00:00"
+  },
+  {
     "exp": "2026040155",
     "fecha": "04/09/2026 17:48",
     "empresa": "2026   EL DORADO ASSET MANAGEMENT SOCIEDAD ADMINISTRADORA DE FONDOS S.A.",

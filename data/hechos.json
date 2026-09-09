@@ -1,5 +1,31 @@
 [
   {
+    "exp": "2026040730",
+    "fecha": "09/09/2026 11:55",
+    "empresa": "2026   INTEGRATEL PERU S.A.A.",
+    "tipo": "4. CAMBIOS EN EL DIRECTORIO Y GERENCIA GENERAL Y/O SUS ÓRGANOS EQUIVALENTES",
+    "categoria_smv": "SERVICIOS",
+    "snippet": "PUBLICOS En la fecha, la Junta Especial de Accionistas del Clase B aprobó nombrar al señor Andrés Ricardo Cardó Soria como Director de la Sociedad",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={701987A0-0000-CB1C-81E9-72ECAD3E9FBD}",
+    "sector": "otros",
+    "resumen": "PUBLICOS En la fecha, la Junta Especial de Accionistas del Clase B aprobó nombrar al señor Andrés Ricardo Cardó Soria como Director de la Sociedad",
+    "stamp": "verde",
+    "fetched_at": "2026-09-09T17:11:54.371114+00:00"
+  },
+  {
+    "exp": "2026040709",
+    "fecha": "09/09/2026 08:51",
+    "empresa": "55 SERVICIO DE AGUA POTABLE Y ALCANTARILLADO - SEDAPAL",
+    "tipo": "4. CAMBIOS EN EL DIRECTORIO Y GERENCIA GENERAL Y/O SUS ÓRGANOS EQUIVALENTES",
+    "categoria_smv": "SERVICIOS",
+    "snippet": "PUBLICOS Acuerdo Directorio FONAFE",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={507086A0-0000-C01F-B34E-5E143C2842DF}",
+    "sector": "otros",
+    "resumen": "PUBLICOS Acuerdo Directorio FONAFE",
+    "stamp": "verde",
+    "fetched_at": "2026-09-09T17:11:54.503374+00:00"
+  },
+  {
     "exp": "2026040658",
     "fecha": "08/09/2026 18:00",
     "empresa": "2026   EL DORADO ASSET MANAGEMENT SOCIEDAD ADMINISTRADORA DE FONDOS S.A.",

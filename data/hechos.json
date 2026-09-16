@@ -1,5 +1,44 @@
 [
   {
+    "exp": "2026041758",
+    "fecha": "16/09/2026 12:34",
+    "empresa": "2026   INTERFONDOS S.A. SOCIEDAD ADMINISTRADORA DE FONDOS",
+    "tipo": "EXCESOS A LOS LÍMITES DE INVERSIÓN E INVERSIONES NO PREVISTAS EN POLÍTICA DE INVERSIONES",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={0049ABA0-0000-C512-A3A9-C02F86C2052C}",
+    "sector": "otros",
+    "resumen": "2026   INTERFONDOS S.A. SOCIEDAD ADMINISTRADORA DE FONDOS presentó: EXCESOS A LOS LÍMITES DE INVERSIÓN E INVERSIONES NO PREVISTAS EN POLÍTICA DE INVERSIONES.",
+    "stamp": "verde",
+    "fetched_at": "2026-09-16T17:39:45.653670+00:00"
+  },
+  {
+    "exp": "2026041755",
+    "fecha": "16/09/2026 12:25",
+    "empresa": "34 INTERSEGURO COMPAÑIA DE SEGUROS S.A.",
+    "tipo": "OTROS HECHOS DE IMPORTANCIA",
+    "categoria_smv": "SEGUROS",
+    "snippet": "Informe de Clasificación de Pacific Credit Rating para la Segunda Emisión del Cuarto Programa de Bonos Subordinados Interseguro",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={C041ABA0-0000-C918-A5B0-FF7B944FCFC5}",
+    "sector": "seguros",
+    "resumen": "Informe de Clasificación de Pacific Credit Rating para la Segunda Emisión del Cuarto Programa de Bonos Subordinados Interseguro",
+    "stamp": "verde",
+    "fetched_at": "2026-09-16T17:39:45.960579+00:00"
+  },
+  {
+    "exp": "2026041720",
+    "fecha": "16/09/2026 09:39",
+    "empresa": "25 BANCO BCI PERU S.A. - BANCO BCI",
+    "tipo": "21. EMISIONES DE VALORES POR OFERTA PÚBLICA O PRIVADA",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={70A9AAA0-0000-CF1E-BE21-6B0379EB62F3}",
+    "sector": "otros",
+    "resumen": "25 BANCO BCI PERU S.A. - BANCO BCI presentó: 21. EMISIONES DE VALORES POR OFERTA PÚBLICA O PRIVADA.",
+    "stamp": "verde",
+    "fetched_at": "2026-09-16T17:39:46.259342+00:00"
+  },
+  {
     "exp": "2026041667",
     "fecha": "15/09/2026 18:24",
     "empresa": "2026   BANCO INTERAMERICANO DE FINANZAS",

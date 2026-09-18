@@ -1,5 +1,18 @@
 [
   {
+    "exp": "2026042058",
+    "fecha": "18/09/2026 11:30",
+    "empresa": "2026   CAJA RURAL DE AHORRO Y CREDITO LOS ANDES S.A.",
+    "tipo": "22. INFORMES DE CLASIFICACIÓN DE RIESGO",
+    "categoria_smv": "FINANCIERAS",
+    "snippet": "Informe de la Clasificadora de Riesgos",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={A05AB5A0-0000-C519-910B-8043C0E344F0}",
+    "sector": "banca",
+    "resumen": "Informe de la Clasificadora de Riesgos",
+    "stamp": "azul",
+    "fetched_at": "2026-09-18T17:07:39.892979+00:00"
+  },
+  {
     "exp": "2026042006",
     "fecha": "17/09/2026 18:25",
     "empresa": "2026   ALICORP S.A.A.",

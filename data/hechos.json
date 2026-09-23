@@ -1,5 +1,44 @@
 [
   {
+    "exp": "2026042581",
+    "fecha": "23/09/2026 12:31",
+    "empresa": "2026   INTERFONDOS S.A. SOCIEDAD ADMINISTRADORA DE FONDOS",
+    "tipo": "INICIO DE COLOCACIÓN DE CUOTAS DE LOS FONDOS E INICIO DE ACTIVIDADES/OPERACIONES",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={6053CFA0-0000-CE18-B35E-2FE0AAD045DB}",
+    "sector": "otros",
+    "resumen": "2026   INTERFONDOS S.A. SOCIEDAD ADMINISTRADORA DE FONDOS presentó: INICIO DE COLOCACIÓN DE CUOTAS DE LOS FONDOS E INICIO DE ACTIVIDADES/OPERACIONES.",
+    "stamp": "verde",
+    "fetched_at": "2026-09-23T17:53:08.884979+00:00"
+  },
+  {
+    "exp": "2026042567",
+    "fecha": "23/09/2026 11:53",
+    "empresa": "31 BANCO BCI PERU S.A. - BANCO BCI",
+    "tipo": "22. INFORMES DE CLASIFICACIÓN DE RIESGO",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={D02FCFA0-0000-C714-A23C-4F829E48BD14}",
+    "sector": "otros",
+    "resumen": "31 BANCO BCI PERU S.A. - BANCO BCI presentó: 22. INFORMES DE CLASIFICACIÓN DE RIESGO.",
+    "stamp": "verde",
+    "fetched_at": "2026-09-23T17:53:09.249185+00:00"
+  },
+  {
+    "exp": "2026042557",
+    "fecha": "23/09/2026 11:22",
+    "empresa": "53 BANCO RIPLEY PERU S.A.",
+    "tipo": "22. INFORMES DE CLASIFICACIÓN DE RIESGO",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={0017CFA0-0000-C116-BB5F-F6D5ECABEB84}",
+    "sector": "otros",
+    "resumen": "53 BANCO RIPLEY PERU S.A. presentó: 22. INFORMES DE CLASIFICACIÓN DE RIESGO.",
+    "stamp": "verde",
+    "fetched_at": "2026-09-23T17:53:09.569548+00:00"
+  },
+  {
     "exp": "2026042509",
     "fecha": "22/09/2026 18:23",
     "empresa": "2026   AFP HABITAT S.A.",

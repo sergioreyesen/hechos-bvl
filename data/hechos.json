@@ -1,5 +1,31 @@
 [
   {
+    "exp": "2026042926",
+    "fecha": "25/09/2026 12:10",
+    "empresa": "2026   BANCO BCI PERU S.A. - BANCO BCI",
+    "tipo": "OTROS HECHOS DE IMPORTANCIA",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={A08DD9A0-0000-C837-93C3-08DA8E5A1F23}",
+    "sector": "otros",
+    "resumen": "2026   BANCO BCI PERU S.A. - BANCO BCI presentó: OTROS HECHOS DE IMPORTANCIA.",
+    "stamp": "verde",
+    "fetched_at": "2026-09-25T17:59:55.237015+00:00"
+  },
+  {
+    "exp": "2026042901",
+    "fecha": "25/09/2026 09:39",
+    "empresa": "10 NEXA RESOURCES PERU S.A.A.",
+    "tipo": "10. INFORMACIÓN FINANCIERA Y MEMORIA ANUAL",
+    "categoria_smv": "MINERAS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={0002D9A0-0000-C319-95BD-AD56F618E404}",
+    "sector": "mineria",
+    "resumen": "10 NEXA RESOURCES PERU S.A.A. presentó: 10. INFORMACIÓN FINANCIERA Y MEMORIA ANUAL.",
+    "stamp": "oro",
+    "fetched_at": "2026-09-25T17:59:55.560109+00:00"
+  },
+  {
     "exp": "2026042867",
     "fecha": "24/09/2026 18:48",
     "empresa": "2026   BANCO INTERAMERICANO DE FINANZAS",

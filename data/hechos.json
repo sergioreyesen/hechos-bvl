@@ -1,5 +1,57 @@
 [
   {
+    "exp": "2026043980",
+    "fecha": "02/10/2026 11:24",
+    "empresa": "2026   EMPRESA AGRICOLA SAN JUAN S.A.",
+    "tipo": "11. DESIGNACIÓN Y RESOLUCIÓN DE CONTRATO CON SU SOCIEDAD DE AUDITORÍA",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={806EFDA0-0000-C313-9AB5-94F7B0A75770}",
+    "sector": "otros",
+    "resumen": "2026   EMPRESA AGRICOLA SAN JUAN S.A. presentó: 11. DESIGNACIÓN Y RESOLUCIÓN DE CONTRATO CON SU SOCIEDAD DE AUDITORÍA.",
+    "stamp": "verde",
+    "fetched_at": "2026-10-02T18:33:40.862265+00:00"
+  },
+  {
+    "exp": "2026043980",
+    "fecha": "02/10/2026 11:24",
+    "empresa": "16 EMPRESA AGRICOLA SAN JUAN S.A.",
+    "tipo": "11. DESIGNACIÓN Y RESOLUCIÓN DE CONTRATO CON SU SOCIEDAD DE AUDITORÍA",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={806EFDA0-0000-C313-9AB5-94F7B0A75770}",
+    "sector": "otros",
+    "resumen": "16 EMPRESA AGRICOLA SAN JUAN S.A. presentó: 11. DESIGNACIÓN Y RESOLUCIÓN DE CONTRATO CON SU SOCIEDAD DE AUDITORÍA.",
+    "stamp": "verde",
+    "fetched_at": "2026-10-02T18:33:41.104043+00:00"
+  },
+  {
+    "exp": "2026043979",
+    "fecha": "02/10/2026 11:21",
+    "empresa": "17 MANUFACTURA DE METALES Y ALUMINIO RECORD S.A. EN LIQUIDACION",
+    "tipo": "OTROS HECHOS DE IMPORTANCIA",
+    "categoria_smv": "INDUSTRIALES",
+    "snippet": "APROBACION DE BALANCE 2DO TRIMESTRE 2026",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={F06BFDA0-0000-C21D-A36A-554695EF8865}",
+    "sector": "industrial",
+    "resumen": "APROBACION DE BALANCE 2DO TRIMESTRE 2026",
+    "stamp": "verde",
+    "fetched_at": "2026-10-02T18:33:40.989231+00:00"
+  },
+  {
+    "exp": "2026043979",
+    "fecha": "02/10/2026 11:21",
+    "empresa": "17 MANUFACTURA DE METALES Y ALUMINIO RECORD S.A. EN LIQUIDACION",
+    "tipo": "OTROS HECHOS DE IMPORTANCIA",
+    "categoria_smv": "INDUSTRIALES",
+    "snippet": "APROBACION DE BALANCE 2DO TRIMESTRE 2026",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={F06BFDA0-0000-C21D-A36A-554695EF8865}",
+    "sector": "industrial",
+    "resumen": "APROBACION DE BALANCE 2DO TRIMESTRE 2026",
+    "stamp": "verde",
+    "fetched_at": "2026-10-02T18:33:41.228106+00:00"
+  },
+  {
     "exp": "2026043939",
     "fecha": "01/10/2026 19:59",
     "empresa": "59 CORE CAPITAL SOCIEDAD ADMINISTRADORA DE FONDOS DE INVERSION S.A.",

@@ -1,5 +1,57 @@
 [
   {
+    "exp": "2026044463",
+    "fecha": "06/10/2026 11:48",
+    "empresa": "2026   LARRAIN VIAL S.A. SOCIEDAD ADMINISTRADORA DE FONDOS DE INVERSION",
+    "tipo": "OTROS HECHOS DE IMPORTANCIA",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={701E12A1-0000-C11C-83B0-3237E11EEAE3}",
+    "sector": "otros",
+    "resumen": "2026   LARRAIN VIAL S.A. SOCIEDAD ADMINISTRADORA DE FONDOS DE INVERSION presentó: OTROS HECHOS DE IMPORTANCIA.",
+    "stamp": "verde",
+    "fetched_at": "2026-10-06T18:57:31.350786+00:00"
+  },
+  {
+    "exp": "2026044455",
+    "fecha": "06/10/2026 11:27",
+    "empresa": "48 INTEGRATEL PERU S.A.A.",
+    "tipo": "OTROS HECHOS DE IMPORTANCIA",
+    "categoria_smv": "SERVICIOS",
+    "snippet": "PUBLICOS Capital social al 30 de setiembre de 2026",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={D00A12A1-0000-C81A-AC06-7B434A916227}",
+    "sector": "otros",
+    "resumen": "PUBLICOS Capital social al 30 de setiembre de 2026",
+    "stamp": "verde",
+    "fetched_at": "2026-10-06T18:57:31.748349+00:00"
+  },
+  {
+    "exp": "2026044442",
+    "fecha": "06/10/2026 11:00",
+    "empresa": "27 INTERFONDOS S.A. SOCIEDAD ADMINISTRADORA DE FONDOS",
+    "tipo": "INICIO DE COLOCACIÓN DE CUOTAS DE LOS FONDOS E INICIO DE ACTIVIDADES/OPERACIONES",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={A0F211A1-0000-C91D-9FE9-5BA5E0D5698F}",
+    "sector": "otros",
+    "resumen": "27 INTERFONDOS S.A. SOCIEDAD ADMINISTRADORA DE FONDOS presentó: INICIO DE COLOCACIÓN DE CUOTAS DE LOS FONDOS E INICIO DE ACTIVIDADES/OPERACIONES.",
+    "stamp": "verde",
+    "fetched_at": "2026-10-06T18:57:32.029333+00:00"
+  },
+  {
+    "exp": "2026044438",
+    "fecha": "06/10/2026 10:45",
+    "empresa": "00 GR HOLDING S.A.",
+    "tipo": "11. DESIGNACIÓN Y RESOLUCIÓN DE CONTRATO CON SU SOCIEDAD DE AUDITORÍA",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={D0E411A1-0000-CA1F-A000-15AF95A08CE6}",
+    "sector": "otros",
+    "resumen": "00 GR HOLDING S.A. presentó: 11. DESIGNACIÓN Y RESOLUCIÓN DE CONTRATO CON SU SOCIEDAD DE AUDITORÍA.",
+    "stamp": "verde",
+    "fetched_at": "2026-10-06T18:57:32.286677+00:00"
+  },
+  {
     "exp": "2026044384",
     "fecha": "05/10/2026 20:40",
     "empresa": "2026   CAJA MUNICIPAL DE AHORRO Y CREDITO DE HUANCAYO S.A.",

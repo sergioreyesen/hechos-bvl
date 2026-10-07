@@ -1,5 +1,44 @@
 [
   {
+    "exp": "2026044790",
+    "fecha": "07/10/2026 13:00",
+    "empresa": "39 CREDICORP CAPITAL S.A. SOCIEDAD ADMINISTRADORA DE FONDOS",
+    "tipo": "EXCESOS A LOS LÍMITES DE INVERSIÓN E INVERSIONES NO PREVISTAS EN POLÍTICA DE INVERSIONES",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={308717A1-0000-CF17-98B4-9589F8CF9128}",
+    "sector": "otros",
+    "resumen": "39 CREDICORP CAPITAL S.A. SOCIEDAD ADMINISTRADORA DE FONDOS presentó: EXCESOS A LOS LÍMITES DE INVERSIÓN E INVERSIONES NO PREVISTAS EN POLÍTICA DE INVERSIONES.",
+    "stamp": "verde",
+    "fetched_at": "2026-10-07T19:24:53.478538+00:00"
+  },
+  {
+    "exp": "2026044760",
+    "fecha": "07/10/2026 11:35",
+    "empresa": "00 CERRO DE PASCO RESOURCES INC.",
+    "tipo": "OTROS HECHOS DE IMPORTANCIA",
+    "categoria_smv": "MINERAS",
+    "snippet": "JUNIOR II Cerro de Pasco Resources Announces AGM Results",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={A03817A1-0000-C71B-9331-80AF82482BAC}",
+    "sector": "mineria",
+    "resumen": "JUNIOR II Cerro de Pasco Resources Announces AGM Results",
+    "stamp": "oro",
+    "fetched_at": "2026-10-07T19:24:53.657710+00:00"
+  },
+  {
+    "exp": "2026044758",
+    "fecha": "07/10/2026 11:31",
+    "empresa": "35 BD CAPITAL SOCIEDAD ADMINISTRADORA DE FONDOS S.A.C.",
+    "tipo": "OTROS HECHOS QUE INFLUYAN EN LA VALORIZACIÓN DEL ACTIVO, VALOR CUOTA Y EN EL DESEMPEÑO DE LOS FONDOS",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={B03417A1-0000-CF19-B452-BFDB64F5F5F6}",
+    "sector": "otros",
+    "resumen": "35 BD CAPITAL SOCIEDAD ADMINISTRADORA DE FONDOS S.A.C. presentó: OTROS HECHOS QUE INFLUYAN EN LA VALORIZACIÓN DEL ACTIVO, VALOR CUOTA Y EN EL DESEMPEÑO DE LOS FONDOS.",
+    "stamp": "verde",
+    "fetched_at": "2026-10-07T19:24:53.851527+00:00"
+  },
+  {
     "exp": "2026044617",
     "fecha": "06/10/2026 18:58",
     "empresa": "2026   PETROLEOS DEL PERU - PETROPERU S.A.",

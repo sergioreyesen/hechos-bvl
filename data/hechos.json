@@ -1,5 +1,57 @@
 [
   {
+    "exp": "2026046051",
+    "fecha": "16/10/2026 09:58",
+    "empresa": "2026   PRIMA AFP S.A.",
+    "tipo": "10. INFORMACIÓN FINANCIERA Y MEMORIA ANUAL",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={403945A1-0000-C91C-B350-98A793994581}",
+    "sector": "otros",
+    "resumen": "2026   PRIMA AFP S.A. presentó: 10. INFORMACIÓN FINANCIERA Y MEMORIA ANUAL.",
+    "stamp": "verde",
+    "fetched_at": "2026-10-16T17:33:32.396016+00:00"
+  },
+  {
+    "exp": "2026046050",
+    "fecha": "16/10/2026 09:58",
+    "empresa": "58 INTERFONDOS S.A. SOCIEDAD ADMINISTRADORA DE FONDOS",
+    "tipo": "LOS EXCESOS AL LÍMITE DE PARTICIPACIÓN",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={F03845A1-0000-C518-B043-A298A54879BD}",
+    "sector": "otros",
+    "resumen": "58 INTERFONDOS S.A. SOCIEDAD ADMINISTRADORA DE FONDOS presentó: LOS EXCESOS AL LÍMITE DE PARTICIPACIÓN.",
+    "stamp": "verde",
+    "fetched_at": "2026-10-16T17:33:32.697311+00:00"
+  },
+  {
+    "exp": "2026046043",
+    "fecha": "16/10/2026 08:22",
+    "empresa": "58 RIMAC SEGUROS Y REASEGUROS",
+    "tipo": "OTROS HECHOS DE IMPORTANCIA",
+    "categoria_smv": "SEGUROS",
+    "snippet": "Estados Financieros Q3-2026",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={70E144A1-0000-C717-987E-DA8F55AC823A}",
+    "sector": "seguros",
+    "resumen": "Estados Financieros Q3-2026",
+    "stamp": "verde",
+    "fetched_at": "2026-10-16T17:33:32.899892+00:00"
+  },
+  {
+    "exp": "2026046039",
+    "fecha": "16/10/2026 00:47",
+    "empresa": "22 MGI SOCIEDAD ADMINISTRADORA DE FONDOS DE INVERSION S.A. - MGI SAFI S.A.",
+    "tipo": "OTROS HECHOS DE IMPORTANCIA",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={B04043A1-0000-CD1D-970E-DEC1A46E1E10}",
+    "sector": "otros",
+    "resumen": "22 MGI SOCIEDAD ADMINISTRADORA DE FONDOS DE INVERSION S.A. - MGI SAFI S.A. presentó: OTROS HECHOS DE IMPORTANCIA.",
+    "stamp": "verde",
+    "fetched_at": "2026-10-16T17:33:33.059169+00:00"
+  },
+  {
     "exp": "2026045987",
     "fecha": "15/10/2026 18:36",
     "empresa": "2026   BANCO BBVA PERU",

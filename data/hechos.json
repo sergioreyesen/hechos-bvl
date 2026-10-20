@@ -1,5 +1,44 @@
 [
   {
+    "exp": "2026046487",
+    "fecha": "20/10/2026 12:17",
+    "empresa": "2026   CAJA MUNICIPAL DE AHORRO Y CREDITO DE AREQUIPA S.A.",
+    "tipo": "21. EMISIONES DE VALORES POR OFERTA PÚBLICA O PRIVADA",
+    "categoria_smv": "FINANCIERAS",
+    "snippet": "Aviso de Oferta de Tercera Emisión del Primer Programa de Certificados de Depósito Negociables de Caja Municipal de Ahorro y Crédito de Arequipa S.A. Oferta Pública Primaria – Serie G",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={10525AA1-0000-C714-B639-92837D84D341}",
+    "sector": "banca",
+    "resumen": "Aviso de Oferta de Tercera Emisión del Primer Programa de Certificados de Depósito Negociables de Caja Municipal de Ahorro y Crédito de Arequipa S.A. Oferta Pública Primaria – Serie G",
+    "stamp": "azul",
+    "fetched_at": "2026-10-20T18:02:35.337123+00:00"
+  },
+  {
+    "exp": "2026046484",
+    "fecha": "20/10/2026 12:03",
+    "empresa": "17 BBVA ASSET MANAGEMENT S.A. SAF",
+    "tipo": "INICIO DE COLOCACIÓN DE CUOTAS DE LOS FONDOS E INICIO DE ACTIVIDADES/OPERACIONES",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={B0445AA1-0000-C51D-85EF-4E52A5054002}",
+    "sector": "otros",
+    "resumen": "17 BBVA ASSET MANAGEMENT S.A. SAF presentó: INICIO DE COLOCACIÓN DE CUOTAS DE LOS FONDOS E INICIO DE ACTIVIDADES/OPERACIONES.",
+    "stamp": "verde",
+    "fetched_at": "2026-10-20T18:02:35.483080+00:00"
+  },
+  {
+    "exp": "2026046470",
+    "fecha": "20/10/2026 11:13",
+    "empresa": "03 QUALITAS COMPAÑIA DE SEGUROS S.A.",
+    "tipo": "10. INFORMACIÓN FINANCIERA Y MEMORIA ANUAL",
+    "categoria_smv": "SEGUROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={00175AA1-0000-C114-A7C3-23F46D63A3FA}",
+    "sector": "seguros",
+    "resumen": "03 QUALITAS COMPAÑIA DE SEGUROS S.A. presentó: 10. INFORMACIÓN FINANCIERA Y MEMORIA ANUAL.",
+    "stamp": "verde",
+    "fetched_at": "2026-10-20T18:02:35.599921+00:00"
+  },
+  {
     "exp": "2026046428",
     "fecha": "19/10/2026 18:39",
     "empresa": "2026   BOSQUES AMAZONICOS S.A.",

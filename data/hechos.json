@@ -1,5 +1,57 @@
 [
   {
+    "exp": "2026046653",
+    "fecha": "21/10/2026 12:30",
+    "empresa": "2026   CEMENTOS PACASMAYO S.A.A.",
+    "tipo": "OTROS HECHOS DE IMPORTANCIA",
+    "categoria_smv": "INDUSTRIALES",
+    "snippet": "HI Actualización Schedule 13D",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={D0835FA1-0000-CC1A-A382-7D741B3D47D8}",
+    "sector": "industrial",
+    "resumen": "HI Actualización Schedule 13D",
+    "stamp": "verde",
+    "fetched_at": "2026-10-21T18:08:36.746725+00:00"
+  },
+  {
+    "exp": "2026046646",
+    "fecha": "21/10/2026 11:55",
+    "empresa": "30 BANCO DE LA NACION",
+    "tipo": "OTROS HECHOS DE IMPORTANCIA",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={10645FA1-0000-CF15-AB4F-B36C4E5FC7E2}",
+    "sector": "otros",
+    "resumen": "30 BANCO DE LA NACION presentó: OTROS HECHOS DE IMPORTANCIA.",
+    "stamp": "verde",
+    "fetched_at": "2026-10-21T18:08:36.989441+00:00"
+  },
+  {
+    "exp": "2026046631",
+    "fecha": "21/10/2026 10:22",
+    "empresa": "55 GRUPO CORIL SOCIEDAD ADMINISTRADORA DE FONDOS S.A.",
+    "tipo": "OTROS HECHOS DE IMPORTANCIA",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={800E5FA1-0000-CE36-A43B-B0075D9C2478}",
+    "sector": "otros",
+    "resumen": "55 GRUPO CORIL SOCIEDAD ADMINISTRADORA DE FONDOS S.A. presentó: OTROS HECHOS DE IMPORTANCIA.",
+    "stamp": "verde",
+    "fetched_at": "2026-10-21T18:08:37.167863+00:00"
+  },
+  {
+    "exp": "2026046619",
+    "fecha": "21/10/2026 07:14",
+    "empresa": "22 CERRO DE PASCO RESOURCES INC.",
+    "tipo": "OTROS HECHOS DE IMPORTANCIA",
+    "categoria_smv": "MINERAS",
+    "snippet": "JUNIOR II PRESS RELEASE 21-10-2026",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={C0625EA1-0000-C611-9521-4D171154B932}",
+    "sector": "mineria",
+    "resumen": "JUNIOR II PRESS RELEASE 21-10-2026",
+    "stamp": "oro",
+    "fetched_at": "2026-10-21T18:08:37.360005+00:00"
+  },
+  {
     "exp": "2026046598",
     "fecha": "20/10/2026 18:59",
     "empresa": "2026   BANCO INTERNACIONAL DEL PERU S.A.A. - INTERBANK",

@@ -1,5 +1,44 @@
 [
   {
+    "exp": "2026047238",
+    "fecha": "26/10/2026 13:20",
+    "empresa": "2026   ELECTRO DUNAS S.A.A.",
+    "tipo": "OTROS HECHOS DE IMPORTANCIA",
+    "categoria_smv": "SERVICIOS",
+    "snippet": "PUBLICOS Aviso de Oferta - Serie A de la Primera Emisión del Primer Programa de Papeles Comerciales de Electro Dunas SAA",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={007279A1-0000-CF3B-85C2-C239B0A7DCF5}",
+    "sector": "otros",
+    "resumen": "PUBLICOS Aviso de Oferta - Serie A de la Primera Emisión del Primer Programa de Papeles Comerciales de Electro Dunas SAA",
+    "stamp": "verde",
+    "fetched_at": "2026-10-26T19:26:36.119417+00:00"
+  },
+  {
+    "exp": "2026047235",
+    "fecha": "26/10/2026 13:17",
+    "empresa": "19 CUMBRA HOLDING S.A.A.",
+    "tipo": "10. INFORMACIÓN FINANCIERA Y MEMORIA ANUAL",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={C06F79A1-0000-C519-AB62-DC128C6440C7}",
+    "sector": "otros",
+    "resumen": "19 CUMBRA HOLDING S.A.A. presentó: 10. INFORMACIÓN FINANCIERA Y MEMORIA ANUAL.",
+    "stamp": "verde",
+    "fetched_at": "2026-10-26T19:26:36.479668+00:00"
+  },
+  {
+    "exp": "2026047216",
+    "fecha": "26/10/2026 11:58",
+    "empresa": "17 INTERFONDOS S.A. SOCIEDAD ADMINISTRADORA DE FONDOS",
+    "tipo": "LOS EXCESOS AL LÍMITE DE PARTICIPACIÓN",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={802679A1-0000-CA10-830C-9EEE90474AD5}",
+    "sector": "otros",
+    "resumen": "17 INTERFONDOS S.A. SOCIEDAD ADMINISTRADORA DE FONDOS presentó: LOS EXCESOS AL LÍMITE DE PARTICIPACIÓN.",
+    "stamp": "verde",
+    "fetched_at": "2026-10-26T19:26:36.798277+00:00"
+  },
+  {
     "exp": "2026047133",
     "fecha": "23/10/2026 18:12",
     "empresa": "2026   GRUPO BVL S.A.A.",

@@ -1,5 +1,57 @@
 [
   {
+    "exp": "2026047434",
+    "fecha": "27/10/2026 13:11",
+    "empresa": "2026   CITIBANK DEL PERU S.A.",
+    "tipo": "10. INFORMACIÓN FINANCIERA Y MEMORIA ANUAL",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={10907EA1-0000-C212-A423-ED9387D1AD46}",
+    "sector": "otros",
+    "resumen": "2026   CITIBANK DEL PERU S.A. presentó: 10. INFORMACIÓN FINANCIERA Y MEMORIA ANUAL.",
+    "stamp": "verde",
+    "fetched_at": "2026-10-27T18:46:49.361871+00:00"
+  },
+  {
+    "exp": "2026047397",
+    "fecha": "27/10/2026 10:49",
+    "empresa": "11 INTERFONDOS S.A. SOCIEDAD ADMINISTRADORA DE FONDOS",
+    "tipo": "INICIO DE COLOCACIÓN DE CUOTAS DE LOS FONDOS E INICIO DE ACTIVIDADES/OPERACIONES",
+    "categoria_smv": "OTROS",
+    "snippet": "",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={400D7EA1-0000-C910-92B1-85FAE5095482}",
+    "sector": "otros",
+    "resumen": "11 INTERFONDOS S.A. SOCIEDAD ADMINISTRADORA DE FONDOS presentó: INICIO DE COLOCACIÓN DE CUOTAS DE LOS FONDOS E INICIO DE ACTIVIDADES/OPERACIONES.",
+    "stamp": "verde",
+    "fetched_at": "2026-10-27T18:46:49.901042+00:00"
+  },
+  {
+    "exp": "2026047393",
+    "fecha": "27/10/2026 10:24",
+    "empresa": "49 CERRO DE PASCO RESOURCES INC.",
+    "tipo": "OTROS HECHOS DE IMPORTANCIA",
+    "categoria_smv": "MINERAS",
+    "snippet": "JUNIOR II FORM 51-102F3 MATERIAL CHANGE REPORT-PURSUANT TO REGULATION 51-102",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={60F77DA1-0000-CF1C-B6AA-901128120CE4}",
+    "sector": "mineria",
+    "resumen": "JUNIOR II FORM 51-102F3 MATERIAL CHANGE REPORT-PURSUANT TO REGULATION 51-102",
+    "stamp": "oro",
+    "fetched_at": "2026-10-27T18:46:50.185960+00:00"
+  },
+  {
+    "exp": "2026047385",
+    "fecha": "27/10/2026 09:00",
+    "empresa": "47 PPX MINING CORP.",
+    "tipo": "OTROS HECHOS DE IMPORTANCIA",
+    "categoria_smv": "MINERAS",
+    "snippet": "JUNIOR II PPX intercepta oro, plata y cobre de alta ley en Callanquitas, con 13,28 g/t Au, 5.204 g/t Ag y 5,4% Cu en 1,0 m; y completa el primer pozo de perforación en Portachuelos",
+    "pdf_url": "https://www.smv.gob.pe/ConsultasP8/documento.aspx?vidDoc={F0A97DA1-0000-C019-873A-D86EA06CCC2B}",
+    "sector": "mineria",
+    "resumen": "JUNIOR II PPX intercepta oro, plata y cobre de alta ley en Callanquitas, con 13,28 g/t Au, 5.204 g/t Ag y 5,4% Cu en 1,0 m; y completa el primer pozo de perforación en Portachuelos",
+    "stamp": "oro",
+    "fetched_at": "2026-10-27T18:46:50.467608+00:00"
+  },
+  {
     "exp": "2026047348",
     "fecha": "26/10/2026 19:09",
     "empresa": "2026   MGI SOCIEDAD ADMINISTRADORA DE FONDOS DE INVERSION S.A. - MGI SAFI S.A.",
